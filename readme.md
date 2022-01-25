@@ -9,7 +9,7 @@
 
 ---
 
-**Installing VScode**
+## **Installing VScode**
 
 First, go to the website of VS Code(https://code.visualstudio.com/), and download the version which is corresponding to the system of laptop. Then install it.
 
@@ -26,7 +26,7 @@ We can also change the appearance.
 
 ---
 
-**Remotely Connecting**
+## **Remotely Connecting**
 
 After installing the VS Code, we can remotely connect to the computers on campus.
 
@@ -41,7 +41,7 @@ Then, type ssh + your account + @ieng6.ucsd.edu. Just like this one.
 
 ---
 
-**Trying Some Commands**
+## **Trying Some Commands**
 
 - **cd** and **cd~**
 >The command **cd** will change the directory to home directory. The command **cd~** will change the directory to what is typed afterward. If there is nothing, then it will direct to home directory.
@@ -66,7 +66,7 @@ Then, type ssh + your account + @ieng6.ucsd.edu. Just like this one.
 
 ---
 
-**Moving Files with scp**
+## **Moving Files with scp**
 
 After creating the **WhereAmI.java** in our computer, we use **scp** command to copy it to the remote server, which is the computer on campus.
 
@@ -76,7 +76,7 @@ So, after logging into the server, use **ls** and we can see the **WhereAmI.java
 
 ---
 
-**Setting an SSH Key**
+## **Setting an SSH Key**
 
 By typing **ssh-keygen**, we can set up our key.
 
@@ -86,7 +86,7 @@ By typing **ssh-keygen**, we can set up our key.
 
 ---
 
-**Optimizing Remote Running**
+## **Optimizing Remote Running**
 
 We can have multiple commands at the same line by writing commands in quote.
 
