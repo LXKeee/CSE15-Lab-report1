@@ -88,6 +88,14 @@ By typing **ssh-keygen**, we can set up our key.
 
 **Optimizing Remote Running**
 
-We can have multiple commands at the same line by writing commands in quote.
+We can have multiple commands at the same line by writing commands in **quote**.
+
+>For example, by typing the command ls in quotes after a ssh command, we can make the system first run ssh command, then ls, then exit. This will save time by avoiding typing the two commands in two lines and the exit command.
 
 ![image](images/Picture10.png)
+
+Also, we can use **semicolons** to execute several commands.
+
+>For example, by typing command ls and ls -lat with semicolon, we can do both of them. This helps us save the time to type on one more line.
+
+![image](images/Picture11.png)
