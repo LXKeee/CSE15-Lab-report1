@@ -16,12 +16,12 @@ First, go to the website of VS Code(https://code.visualstudio.com/), and downloa
 After that, open the VS Code.
 
 
-![image](images/Picture1.png)
+![image](image1/Picture1.png)
 
 
 We can also change the appearance.
 
-![image](images/Picture2.png)
+![image](image1/Picture2.png)
 
 
 ---
@@ -34,7 +34,7 @@ First, look up your account by using [link](https://sdacs.ucsd.edu/~icc/index.ph
 
 Then, type ssh + your account + @ieng6.ucsd.edu. Just like this one.
 
-![image](images/Picture3.png)
+![image](image1/Picture3.png)
 
 >Here, it automatically log in because during the lab 1, we saved our keys into the server. Usually it will require us to type in the password.
 
@@ -46,23 +46,23 @@ Then, type ssh + your account + @ieng6.ucsd.edu. Just like this one.
 - **cd** and **cd~**
 >The command **cd** will change the directory to home directory. The command **cd~** will change the directory to what is typed afterward. If there is nothing, then it will direct to home directory.
 
-![image](images/Picture4.png)
+![image](image1/Picture4.png)
 
 -**ls -lat** and **ls -a**
 >Both of them will show the contents. *PS the contents with a dot in the front mean they are hidden*
 
-![image](images/Picture5.png)
+![image](image1/Picture5.png)
 
 -**cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/**
 -**cat /home/linux/ieng6/cs15lwi22/public/hello.txt**
 >**cp** means copy, and **cat** means print the content. But here we don't have the access right now, so the access is denied.
 
-![image](images/Picture6.png)
+![image](image1/Picture6.png)
 
 -**exit**
 >To log out, we can use **exit** or **Ctrl+D**.
 
-![image](images/Picture7.png)
+![image](image1/Picture7.png)
 
 ---
 
@@ -72,7 +72,7 @@ After creating the **WhereAmI.java** in our computer, we use **scp** command to 
 
 So, after logging into the server, use **ls** and we can see the **WhereAmI.java**.
 
-![image](images/Picture8.png)
+![image](image1/Picture8.png)
 
 ---
 
@@ -82,7 +82,7 @@ By typing **ssh-keygen**, we can set up our key.
 
 >Here it asks to overwrite or not, because during the lab I have set up the key.
 
-![image](images/Picture9.png)
+![image](image1/Picture9.png)
 
 ---
 
@@ -92,10 +92,10 @@ We can have multiple commands at the same line by writing commands in **quote**.
 
 >For example, by typing the command ls in quotes after a ssh command, we can make the system first run ssh command, then ls, then exit. This will save time by avoiding typing the two commands in two lines and the exit command.
 
-![image](images/Picture10.png)
+![image](image1/Picture10.png)
 
 Also, we can use **semicolons** to execute several commands.
 
 >For example, by typing command ls and ls -lat with semicolon, we can do both of them. This helps us save the time to type on one more line.
 
-![image](images/Picture11.png)
+![image](image1/Picture11.png)
