@@ -22,7 +22,7 @@ The output of the another is [train.jpg]
 
 ![image](image5/pic2.png)
 
-Since the original test file content is **![foo](train.jpg)**, which contains both [] and () around the link, I think the output of [train.jpg] is correct.
+Since the link in original test file has both [] and () around itself, I think the output of [train.jpg] is correct.
 
 
 3. For the implementation that’s not correct (or choose one if both are incorrect), describe the _bug (the problem in the code). Be specific about what is wrong with the program, and show the code that should be fixed.
